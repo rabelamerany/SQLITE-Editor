@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/card"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="3dp"
+    app:cardBackgroundColor="@color/colorbright"
+    app:contentPadding="5dp"
+    android:focusable="false"
+    >
+    <LinearLayout
+
+        android:id="@+id/laayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/laaayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="Id :"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="User's id"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Email :"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email Here"
+
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Pwd :"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                    <TextView
+                        android:id="@+id/txtPass"
+                        android:text="Password Here"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Type :"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/txtType"
+                        android:text="Type Here"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+                </TableRow>
+
+            </TableLayout>
+            >
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

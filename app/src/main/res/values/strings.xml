@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">SQlite Editor</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_bdd">Databases</string>
+    <string name="btn_addDb">Add database</string>
+    <string name="dbName"></string>
+    <string name="dbNameintent"></string>
+    <string name="btn_addTable">Add table</string>
+    <string name="btn_addRow">Insert</string>
+    <string name="tableName"></string>
+    <string name="numberCols"></string>
+    <string name="tableColName">Column Name</string>
+    <string name="tableColType">Type</string>
+    <string name="tableColPrimary">PK</string>
+    <string name="tableColAuto">A/I</string>
+    <string name="tableColNull">Not Null</string>
+    <string name="tableColvalue">Value</string>
+    <string name="delete">Delete</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+
+    <string name="execute">Execute</string>
+    <string name="title_activity_database">DatabaseActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_detail_table">DetailTableActivity</string>
+    <string name="title_activity_create_table">CreateTableActivity</string>
+    <string name="title_activity_insert">InsertActivity</string>
+    <string name="title_activity_update">UpdateActivity</string>
+    <string name="title_activity_sql">SqlActivity</string>
+
+    <string name="main">Acceuil</string>
+    <string name="createTable">Create Table</string>
+    <string name="database">Databases</string>
+    <string name="detail">Detail</string>
+    <string name="insert">Insert</string>
+    <string name="detailTable">Table detail</string>
+    <string name="update">Update</string>
+    <string name="sql">SQL</string>
+    <string name="logout">Log Out</string>
+    <string name="title_activity_tmp">TmpActivity</string>
+    <string name="title_activity_login">SQlite Editor</string>
+
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">No account yet? Create one</string>
+    <string name="btn_link_to_login">already registered. login me!</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+
+
+    <string name="action_table">Gestion des tables</string>
+    <string name="action_search">Search</string>
+    <string name="action_query">Requète SQL</string>
+
+
+    <string name="BD">Gestion Base de données</string>
+    <string name="Tables">Gestion des Tables</string>
+    <string name="title_activity_tables">Tables</string>
+    <string name="title_activity_db">DB</string>
+    <string name="Search">Search</string>
+    <string name="Main">Main</string>
+    <string name="Login">Register</string>
+    <string name="buttonBd">TODO</string>
+    <string name="aBd">Ajouter un utilisateur</string>
+    <string name="mUser">Modifier un utilisateur</string>
+    <string name="sBd">Supprimer un utilisateur</string>
+    <string name="lBd">lister les utilisateurs</string>
+    <string name="crBdTitle">Créer votre Base de données</string>
+    <string name="crBdname">Nom :</string>
+    <string name="crBdNbChamps">Nombre de champs :</string>
+    <string name="crBdbtn">Création</string>
+    <string name="listBdbtn">Liste des Base de données :</string>
+    <string name="listBd">Lister </string>
+
+
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Name</string>
+
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_forget_password">Password forgotten</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="hint_security_hint">Security hint</string>
+    <string name="Reset_Password">Reset Password</string>
+    <string name="tyype">Type</string>
+
+    <string-array name="names">
+        <item>Admin</item>
+        <item>User</item>
+    </string-array>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_main_admin">MainAdminActivity</string>
+    <string name="export">Export</string>
+    <string name="title_activity_export">ExportActivity</string>
+    <string name="List">Admin Dashboard</string>
+    <string name="add">Add User</string>
+    <string name="updaate">Update User</string>
+    <string name="find">Find User</string>
+</resources>

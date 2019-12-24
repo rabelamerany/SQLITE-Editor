@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "647264205540",
+    "firebase_url": "https://projectandroidsqlite.firebaseio.com",
+    "project_id": "projectandroidsqlite",
+    "storage_bucket": "projectandroidsqlite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647264205540:android:2f1911be959e358a",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.androidmyadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647264205540-7cql1hj0o2ihcn287hl7976njc8j73rv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWxzzb8AtCBu06ThQRxvL2sTvg0eLmajk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

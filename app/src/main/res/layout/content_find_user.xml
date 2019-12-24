@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ManageUsers.findUser"
+    tools:showIn="@layout/activity_find_user">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10dp">
+
+
+        <EditText
+            android:id="@+id/Id"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="61dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="144dp"
+            android:hint="Id" />
+
+        <ListView
+            android:id="@+id/listview_2"
+            android:layout_width="374dp"
+            android:layout_height="313dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="188dp"
+            android:layout_marginEnd="0dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="203dp"
+            android:layout_height="101dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="228dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="-4dp">
+
+            <RadioButton
+                android:id="@+id/radioId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Id" />
+
+            <RadioButton
+                android:id="@+id/radioEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Email" />
+
+            <RadioButton
+                android:id="@+id/radioType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type" />
+        </RadioGroup>
+
+    </RelativeLayout>
+
+</ScrollView>

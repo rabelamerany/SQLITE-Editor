@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ensat.admin.projet.Tables">
+    <item
+        android:id="@+id/Search"
+        android:orderInCategory="100"
+        android:title="@string/Search"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Gestion_BD"
+        android:orderInCategory="100"
+        android:title="@string/BD"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/main"
+        android:orderInCategory="100"
+        android:title="@string/Main"
+        app:showAsAction="never" />
+</menu>

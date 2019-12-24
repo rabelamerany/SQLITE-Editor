@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lenovo.androidmyadmin.databaseActivities.MainActivity">
+    <item
+        android:id="@+id/log"
+        android:orderInCategory="100"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/main"
+        android:orderInCategory="100"
+        android:title="@string/main"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:showAsAction="ifRoom|withText"
+        app:actionViewClass="android.widget.SearchView"/>
+</menu>
