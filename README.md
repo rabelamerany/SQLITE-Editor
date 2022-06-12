@@ -5,8 +5,10 @@
 <img  alt="Rabab El Amerany Project" title="Rabab Project" src="https://github.com/RababElAmerany94/SQLITE-Editor/blob/master/mobile-app.PNG" />
 </a>
 </p>
+<br>
+<br>
 
-<p align="center">
+<p align="left">
 SqliteEditor is an Android application for SQLITE database management. Our goal is to create an application that will help users within a company; the goal is to provide them with an interface allowing basic manipulation of databases. The main functions of this application are: the creation of objects (databases, tables, lines), the deletion of objects (lines, tables) in addition to an authentication layer allowing to distinguish between two types of users (Administrator and normal user).
 
 <b>How the app works</b>
