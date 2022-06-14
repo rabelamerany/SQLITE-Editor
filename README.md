@@ -106,8 +106,6 @@ Run the following command in a terminal.
  $ git clone [https://github.com/RababElAmerany94/SQLITE-Editor](https://github.com/RababElAmerany94/SQLITE-Editor)
  ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 **Install Android Studio**
 
 Download and install Android Studio from [their website](https://developer.android.com/studio/).
@@ -118,6 +116,8 @@ When Android Studio starts up, it will prompt you to create a new project or imp
 project, navigate to the `SQLITE-Editor` directory you cloned earlier, and select it.
 
 When building for the first time, gradle will download all dependencies so it'll take a few minutes to complete. Subsequent builds will be faster.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Running locally
 
