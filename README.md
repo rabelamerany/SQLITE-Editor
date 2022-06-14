@@ -112,8 +112,6 @@ Run the following command in a terminal.
 
 Download and install Android Studio from [their website](https://developer.android.com/studio/).
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 **Import the project into Android Studio.**
 
 When Android Studio starts up, it will prompt you to create a new project or import an existing project. Select the option to import an existing
@@ -121,21 +119,15 @@ project, navigate to the `SQLITE-Editor` directory you cloned earlier, and selec
 
 When building for the first time, gradle will download all dependencies so it'll take a few minutes to complete. Subsequent builds will be faster.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ## Running locally
 
 The Simple App can be run locally on an Android emulator using Android Studio. To do this,
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 **Create a Run/Debug configuration**
 
 * Open the Run/Debug configurations window through Run -> Edit Configurations ([ref](https://developer.android.com/studio/run/rundebugconfig))
 * Create a new configuration using the `Android App` template
 * Set the module to `app`, and finish creating the configuration
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 **Create a virtual device**
 
@@ -144,14 +136,10 @@ The Simple App can be run locally on an Android emulator using Android Studio. T
 * Select a device and operating system
 * Note: You will have to download one of the available OS options the first time you create an AVD
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 **Set the right build variant**
 
 * Open the Build Variants window through View -> Tool Windows -> Build Variants, or clicking the item in the lower left corner of the main window
 * Set the Build Variant of the app module to `qaDebug`
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 **Run the app**
 
