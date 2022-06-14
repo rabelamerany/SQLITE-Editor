@@ -103,7 +103,7 @@ jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
 Run the following command in a terminal.
 
  ```
- $ git clone git@github.com:simpledotorg/simple-android.git
+ $ git clone [https://github.com/RababElAmerany94/SQLITE-Editor](https://github.com/RababElAmerany94/SQLITE-Editor)
  ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -117,18 +117,9 @@ Download and install Android Studio from [their website](https://developer.andro
 **Import the project into Android Studio.**
 
 When Android Studio starts up, it will prompt you to create a new project or import an existing project. Select the option to import an existing
-project, navigate to the `simple-android` directory you cloned earlier, and select it.
+project, navigate to the `SQLITE-Editor` directory you cloned earlier, and select it.
 
 When building for the first time, gradle will download all dependencies so it'll take a few minutes to complete. Subsequent builds will be faster.
-
-If during the build process you see the message:
-"Warning: License for package Android SDK Build-Tools 30.0.2 not accepted."
-Then you may need to install the Google Play Licensing Library:
-
-* Open the SDK Manager through Tools -> SDK Manager
-* Select Appearance & Behavior -> System Settings -> Android SDK in the left sidebar
-* Select the SDK Tools tab in the main window
-* Activate Google Play Licensing Library and click Apply
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -160,9 +151,13 @@ The Simple App can be run locally on an Android emulator using Android Studio. T
 * Open the Build Variants window through View -> Tool Windows -> Build Variants, or clicking the item in the lower left corner of the main window
 * Set the Build Variant of the app module to `qaDebug`
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 **Run the app**
 
 * Click "Run", either through Run -> Run, or the green play button in the top toolbar.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
 
