@@ -48,7 +48,7 @@ OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.10+9)
 OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.10+9, mixed mode)
 ```
 
-If this command has an error, or shows a different version is not a problem, you can follow the instructions below to install the JDK.
+If this command shows a different version is not a problem, you can follow the instructions below to install the JDK.
 
 **Install the JDK**
 
@@ -103,7 +103,7 @@ jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
 Run the following command in a terminal.
 
  ```
- $ git clone [https://github.com/RababElAmerany94/SQLITE-Editor](https://github.com/RababElAmerany94/SQLITE-Editor)
+ $ git clone https://github.com/RababElAmerany94/SQLITE-Editor
  ```
 
 **Install Android Studio**
