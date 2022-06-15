@@ -3,8 +3,8 @@
 # SQLITE Editor
 
 <p align="center">
-<a href="https://github.com/RababElAmerany94/SQLITE-Editor">
-<img  alt="Rabab El Amerany Project" title="Rabab Project" src="https://github.com/RababElAmerany94/SQLITE-Editor/blob/master/mobile-app.PNG" />
+<a href="https://github.com/rabelamerany/SQLITE-Editor">
+<img  alt="Rabab El Amerany Project" title="Rabab Project" src="https://github.com/rabelamerany/SQLITE-Editor/blob/master/mobile-app.PNG" />
 </a>
 </p>
 <br>
@@ -103,7 +103,7 @@ jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
 Run the following command in a terminal.
 
  ```
- $ git clone https://github.com/RababElAmerany94/SQLITE-Editor
+ $ git clone https://github.com/rabelamerany/SQLITE-Editor
  ```
 
 **Install Android Studio**
@@ -153,6 +153,6 @@ The Simple App can be run locally on an Android emulator using Android Studio. T
 
 Rabab El Amerany - rab.el.amerany@gmail.com
 
-Project Link: [https://github.com/RababElAmerany94/platform-to-track-orders](https://github.com/RababElAmerany94/platform-to-track-orders)
+Project Link: [https://github.com/rabelamerany/SQLITE-Editor](https://github.com/rabelamerany/SQLITE-Editor)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
