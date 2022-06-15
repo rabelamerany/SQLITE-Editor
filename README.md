@@ -1,9 +1,9 @@
 <div id="top"></div>
 
-# SQLITE-Editor
+# SQLITE Editor
 
 <p align="center">
-<a href="https://github.com/RababElAmerany94/billing-management-mobile">
+<a href="https://github.com/RababElAmerany94/SQLITE-Editor">
 <img  alt="Rabab El Amerany Project" title="Rabab Project" src="https://github.com/RababElAmerany94/SQLITE-Editor/blob/master/mobile-app.PNG" />
 </a>
 </p>
